@@ -1,8 +1,7 @@
-# MoveChat 1.2
+# moveChat 1.2.0 Release Notes
 
-This release brings the same update flow and release notes experience used in multiChat.
+Thank you for your support! Here are the new features included in version 1.2.0:
 
-- The app checks the remote manifest on launch and presents an update prompt when a newer version is available.
-- The About MoveChat panel can check for updates manually, show notes for the current version, and jump to the download page.
-- Release notes now follow the same `manifest.json + releases/<version>/<locale>.md` structure as the source project.
-- The update UI, status messages, and version comparison behavior are aligned with the source implementation.
+- Completely refactored the file copy logic for better stability and faster performance
+- Added a new "Re-sign" feature. If a migrated WeChat app stops opening after an update, you can use this feature to sign it again.
+- Added checks and reminders for the "Full Disk Access" permission, guiding users to grant the correct access required to complete the transfer process
